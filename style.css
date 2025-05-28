@@ -1,7 +1,40 @@
 /* style.css */
 body {
-  background: linear-gradient(to right, #ff0000, #0000ff);
+  background: linear-gradient(to right, #1a0354, #2b0340);
 
   color: white;
   font-family: Arial, sans-serif;
+}
+
+#glow {
+  position: fixed;
+  pointer-events: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(109, 10, 136, 0.8) 0%, transparent 40%);
+  mix-blend-mode: screen;
+  transform: translate(-50%, -50%);
+  transition: background 0.2s ease;
+  z-index: 9999;
+}
+
+#github-btn {
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #580e6f; /* green */
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(179, 173, 173, 0.2);
+  transition: background-color 0.3s ease, transform 0.5s ease;
+}
+
+#github-btn:hover {
+  background-color: #450554;
 }
