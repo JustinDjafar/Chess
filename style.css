@@ -1,6 +1,7 @@
 /* style.css */
 body {
-  background-color: #121212;
+  background: linear-gradient(to right, #ff0000, #0000ff);
+
   color: white;
   font-family: Arial, sans-serif;
 }
