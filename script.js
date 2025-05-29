@@ -18,5 +18,4 @@ githubBtn.addEventListener('mouseenter', () => {
 githubBtn.addEventListener('mouseleave', () => {
   githubBtn.style.transform = 'translate(-50%, -50%) scale(1)';
 });
-
 document.body.style.cursor = "url('cursor.png') 16 16, auto";
